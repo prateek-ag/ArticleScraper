@@ -1,3 +1,5 @@
+# Data Scraping from Online News Articles
+
 This module was developed during my research project under Professor Margo Seltzer, during the summer of 2019.
 
 The Article Scraper aims to automatically extract provenance information from online news articles, and to store the information in an easily retrievable manner. Using a combination of machine learning models, rule-based object recognition, and external libraries such as BeautifulSoup, Newspaper3k, and the StanfordNLP library, the article scraping module is able to automatically detect and identify important textual elements of a news article from its webpage. Information such as author, quotations (quote and attributed speaker), linked pages (URL and a categorical classification) and more is extracted from the article and written to an output file in JSON format. The module then utilizes the prov-cpl library to create and store provenance entities and the relationships between them.
